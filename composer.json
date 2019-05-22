@@ -9,7 +9,7 @@
     ],
     "require": {},
     "autoload": {
-        "psr-0": { "Znerol\\Component\\Stringprep\\": "" }
+        "psr-4": { "Znerol\\Component\\Stringprep\\": "" }
     },
     "target-dir": "Znerol/Component/Stringprep",
     "require-dev": {

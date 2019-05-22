@@ -6,8 +6,6 @@ use Znerol\Component\Stringprep\UnicodeUtil;
 use Znerol\Component\Stringprep\ProfileException;
 use Znerol\Component\Stringprep\RFC3454;
 
-require_once('RFC3454/A_1.php');
-
 class Profile{
   const MODE_QUERY = 0,
         MODE_STORE = 1;
