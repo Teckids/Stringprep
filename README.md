@@ -3,6 +3,8 @@ PHP stringprep
 
 [![Build Status](https://travis-ci.org/znerol/Stringprep.svg?branch=master)](https://travis-ci.org/znerol/Stringprep)
 
+Note: this is a forked version with bugfixes.
+
 **Please note that this project is not maintained. It was implemented on a
 weekend and never used in production by the author. If you intend to use it,
 then please fork it, fix it and then sumbit a pull request updating this
@@ -13,12 +15,21 @@ Strings ("stringprep").
 
 See: http://tools.ietf.org/html/rfc3454
 
-Requierements
--------------
+Requirements
+------------
 
 * PHP >= 5.3
 * PHP intl extension (http://ch1.php.net/manual/en/book.intl.php)
 * PHP iconv extension (http://ch1.php.net/manual/en/book.iconv.php)
+
+Add the following to your `composer.json` *before* the `require` object:
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Teckids/Stringprep"
+        }
+    ],
 
 Example
 -------
