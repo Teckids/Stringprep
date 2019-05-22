@@ -14,7 +14,6 @@
     "autoload": {
         "psr-4": { "Znerol\\Component\\Stringprep\\": "" }
     },
-    "target-dir": "Znerol/Component/Stringprep",
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     }
