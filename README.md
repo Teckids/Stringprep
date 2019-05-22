@@ -31,6 +31,11 @@ Add the following to your `composer.json` *before* the `require` object:
         }
     ],
 
+Run either the following command, or one with a suitable version
+specification (instead of `dev-master`) in it, afterwards:
+
+    composer require znerol/php-stringprep:dev-master
+
 Example
 -------
 
